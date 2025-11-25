@@ -7,7 +7,7 @@ def adicionar_contato(contatos, nome):
     contatos.append(contato)
     print(f"Contato '{nome}' foi adicionado com sucesso!")
 
-# Função ver a agenda de contatos
+# Função para ver a agenda de contatos
 def ver_contato(contatos):
     print("\nAgenda de contatos:")
     if not contatos:
